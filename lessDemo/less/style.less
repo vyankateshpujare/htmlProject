@@ -1,0 +1,52 @@
+@primary-color:rgb(255, 94, 0);
+@secondary-color: rgb(77, 224, 224);
+@background-color:yellow;
+@margin-vertical:abs(10px - 40px);
+
+.primary-text
+{
+    color: @primary-color;
+}
+.btn:extend(.pad)
+{
+    background-color: @secondary-color;
+    .roundedborder(10px)
+}
+body{
+    background-color:@background-color;
+}
+.border
+{
+    border-top: 2px dotted rgb(95, 74, 145);
+    border-bottom: 2px solid green;
+}
+.pad{
+    padding: 10px;
+}
+
+h1
+{
+    margin: @margin-vertical;
+    .primary-text;
+    .border;
+}
+.roundedborder(@radius)
+{
+    border-radius: @radius;
+}
+ul#list
+{
+    
+    list-style: none;
+    background-color: shade(rgba(00,0,255,0.5), 50%);
+    li{
+        padding: 10px 0;
+        a{
+            color: aliceblue;
+            text-decoration: none;
+            &:hover{
+                color: @primary-color;
+            }
+        }
+    }
+}

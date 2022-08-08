@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css" type="text/css">
+    <script>
+        function signin()
+        {
+            alert("successfully Registered ");
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+    <form action="" onsubmit=" return signin()">
+
+        <div class="container">
+            <div class="">
+                <div class="lbl" >
+                    <label for="name">Name : </label>
+                </div>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <div class="lbl">
+                    <label for="pass">Password : </label>
+                </div>
+                <input type="password" id="pass">
+            </div>
+            <div class="">
+                <div class="lbl">
+                    <label for="email">Email : </label>
+                </div>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <div class="lbl">
+                    <label for="addr">Address</label>
+                </div>
+                <textarea name="" id="addr" cols="" rows="5"></textarea>
+            </div>
+            <div>
+                <div class="lbl">
+                    <label for="dob">DOB</label>
+                </div>
+                <input type="date" name="" id="dob">
+            </div>
+            <div>
+                <div class="lbl">
+                   <label for="gen">Gender : </label> 
+                   
+                </div>
+                    <label for="">Male</label><input type="radio" name="vsp" id="gen">
+                    <label for="">Female</label><input type="radio" name="vsp" id="gen">
+            </div>
+            <div>
+                <div class="lbl">
+                    <label for="country">Country :</label>
+                </div>
+                <select name="Country : " id="country">
+                    <option value="">INDIA</option>
+                    <option value="">DUBAI</option>
+                    <option value="">CHINA</option>
+                    <option value="">MALESIA</option>
+                </select>
+            </div>
+            <div class="checkbox">
+                <div class="lbl">
+                    <label for="sub">subject : </label>
+                    
+                </div>
+                <ol id="sub">
+                    <li><label for=""><input type="checkbox" name="" id="">java</label></li>
+                    <li><label for=""><input type="checkbox" name="" id="">python</label></li>
+                    <li><label for=""><input type="checkbox" name="" id="">react</label> </li>
+                </ol> 
+            </div>
+            <div class="btn">
+                <input type="submit" name="" id="" value="Submit">
+            </div>
+        </div>
+    </form>
+
+    <table>
+        <thead><tr><th>Name</th><th>Password</th><th>Email</th><th>Address</th><th>DOB</th><th>Gender</th><th>Country</th><th>Subject</th></tr></thead>
+        <tr><td>vyankatesh</td><td>vsp@1234</td><td>vsp@gmail.com</td><td>Sindhudurg</td><td>05/09/1996</td><td>male</td><td>INDIA</td><td>java,python</td></tr>
+        <tr><td>darshan</td><td>darsh@1234</td><td>darsh@gmail.com</td><td>Kolhapur</td><td>02/08/1995</td><td>male</td><td>INDIA</td><td>java,react</td></tr>
+    
+    </table>
+</body>
+</html>

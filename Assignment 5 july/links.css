@@ -1,0 +1,28 @@
+.container
+{
+    
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    width: 50%;
+    height: 300px;
+    border: 2px solid;
+    background-color: rgb(36, 36, 116);
+}
+.container ul li{
+    margin-top: 100px;
+    display: inline-block;
+}
+a{
+   
+    margin: 20px;
+    border: 2px solid;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(128, 121, 121);
+    color: white;
+}
+a:hover{
+    color: rgb(217, 255, 0);
+}

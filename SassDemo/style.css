@@ -1,0 +1,36 @@
+body {
+  background-color: yellow;
+}
+
+h1 {
+  color: red;
+  border-top: 2px dotted rgb(95, 74, 145);
+  border-bottom: 2px solid green;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+
+ul#list {
+  list-style: none;
+  background-color: gray;
+}
+ul#list li {
+  padding: 10px 0;
+}
+ul#list li a {
+  color: white;
+  text-decoration: none;
+}
+ul#list li a:hover {
+  color: rgb(103, 189, 103);
+}
+
+.pad, .btn {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

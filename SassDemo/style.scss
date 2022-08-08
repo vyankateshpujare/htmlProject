@@ -1,0 +1,56 @@
+$primary-color:red;
+$margin-vertical:30px;
+$secondary-color: blue;
+
+body{
+    background-color: yellow;
+}
+@mixin primary-text
+{
+    color: $primary-color;
+}
+@mixin border
+{
+    border-top: 2px dotted rgb(95, 74, 145);
+    border-bottom: 2px solid green;
+}
+h1
+{
+    // margin: $margin-vertical;
+    @include primary-text;
+    @include border;
+}
+ @mixin roundedborder($radius)
+{
+    border-radius: $radius;
+}
+.btn
+{
+    @extend .pad;
+    background-color: $secondary-color;
+    color: white;
+    @include roundedborder(10px);
+}
+
+
+ul#list
+{
+    list-style: none;
+    background-color: gray;
+    li {
+       padding: 10px 0;
+       a{
+        color: white;
+        text-decoration: none;
+        &:hover
+        {
+          color: rgb(103, 189, 103);  
+        }
+       }
+    }
+}
+
+
+.pad{
+    padding: 10px;
+}

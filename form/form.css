@@ -1,0 +1,61 @@
+form {
+  margin: auto;
+  width: 50%;
+  border: 1px solid;
+  height: 700px;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+.lbl {
+  width: 100px;
+  display: inline-block;
+}
+
+.container {
+  margin: 10%;
+}
+li {
+  list-style-type: none;
+  margin-left: 70px;
+}
+div {
+  margin: 10px;
+}
+input[type="text"],
+input[type="password"],input[type="email"] {
+  width: 250px;
+  height: 20px;
+}
+textarea {
+  width: 250px;
+}
+
+.btn {
+  text-align: center;
+}
+input[type="submit"]:hover {
+  color: rgb(34, 28, 28);
+  background-color: greenyellow;
+}
+input[type="submit"] {
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: rgb(48, 22, 22);
+  border-radius: 5px;
+}
+table{
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgb(240, 240, 179);
+
+}
+table,th,td{
+border: 2px solid;
+border-collapse: collapse;
+}
+th,td{
+  width: 100px;
+  text-align: center;
+}

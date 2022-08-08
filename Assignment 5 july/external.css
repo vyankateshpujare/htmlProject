@@ -1,0 +1,22 @@
+       .container
+        {
+            text-align: center;
+            width: 50%;
+            margin: auto;
+            border:2px solid;
+
+        }
+        h1{
+            color: rgb(243, 41, 14);
+        }
+        h1 span{
+            color: rgb(136, 255, 0);
+            border-bottom: 2px solid;
+        }
+        h3{
+            color: blue;
+            
+        }
+        div{
+            color: rgb(165, 42, 52);
+        }
